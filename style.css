@@ -1,1 +1,161 @@
+/* ================================
+   ERF — Noir Institutionnel
+   ================================ */
+
+/* --- Base --- */
+body.erf-dark {
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  color: #e6e6e6;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Wrapper */
+.erf-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* --- Header --- */
+.erf-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 1px solid #222;
+}
+
+.erf-logo-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.erf-logo {
+  width: 70px;
+  height: auto;
+}
+
+.erf-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.erf-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #e6e6e6;
+}
+
+.erf-subname {
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+/* --- Navigation --- */
+.erf-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.erf-nav-link {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  transition: opacity 0.2s;
+}
+
+.erf-nav-link:hover {
+  opacity: 0.5;
+}
+
+/* --- Hero --- */
+.erf-hero {
+  padding: 120px 0 80px 0;
+  text-align: center;
+}
+
+.erf-hero-title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #f0f0f0;
+}
+
+.erf-hero-lead {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+/* --- Sections --- */
+.erf-section {
+  padding: 100px 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.erf-section-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.erf-section-text {
+  max-width: 700px;
+  font-size: 1.05rem;
+  opacity: 0.75;
+}
+
+/* --- Fellows --- */
+.erf-fellows-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.erf-fellow-card {
+  background: #141414;
+  padding: 25px;
+  border: 1px solid #1f1f1f;
+  border-radius: 6px;
+}
+
+.erf-fellow-name {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #eaeaea;
+}
+
+.erf-fellow-role {
+  font-size: 0.95rem;
+  opacity: 0.6;
+  margin-bottom: 15px;
+}
+
+.erf-fellow-bio {
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+/* --- Links --- */
+.erf-link {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+.erf-link:hover {
+  opacity: 0.6;
+}
+
+/* --- Footer --- */
+.erf-footer {
+  padding: 40px 0;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 0.9rem;
+}
 
