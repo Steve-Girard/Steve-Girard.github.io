@@ -73,6 +73,12 @@ body.erf-dark {
   opacity: 0.5;
 }
 
+.erf-nav-jerf {
+background: rgba(255,255,255,0.04);
+padding: 4px 10px;
+border-radius: 6px;
+}
+
 /* --- Hero --- */
 .erf-hero {
   padding: 120px 0 80px 0;
