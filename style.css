@@ -62,7 +62,7 @@ body.erf-dark {
 }
 
 .erf-nav-link {
-  color: #ccc;
+  color: #B7CBD6;
   text-decoration: none;
   font-size: 0.95rem;
   letter-spacing: 0.5px;
@@ -107,7 +107,11 @@ body.erf-dark {
 .erf-section-title {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #f0f0f0;
+  color: #A8BCC8;
+}
+
+.erf-section-title a {
+  color: inherit;
 }
 
 .erf-section-text {
@@ -150,7 +154,7 @@ body.erf-dark {
 
 /* --- Links --- */
 .erf-link {
-  color: #4da3ff;
+  color: #B7CBD6;
   text-decoration: none;
 }
 
@@ -165,4 +169,3 @@ body.erf-dark {
   opacity: 0.5;
   font-size: 0.9rem;
 }
-
